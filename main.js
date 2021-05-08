@@ -5,7 +5,7 @@ function percDif(a, b) {
 }
 
 var d;
-$.getJSON("https://www.brownanalytics.com/scrabble_luck/score_calc.json", function(json) {
+$.getJSON("https://raw.githubusercontent.com/kmcelwee/scrabble-luck/main/score_calc.json", function(json) {
     d = json;
 });
 
